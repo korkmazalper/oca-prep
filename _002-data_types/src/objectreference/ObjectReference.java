@@ -44,4 +44,10 @@ class EJavaGuruPassObjects1 {
 class Person {
     public String name;
     public int height;
+    String s = Integer.toString(height);
+
+    {
+        name.charAt(1);
+        name.indexOf("x");
+    }
 }
