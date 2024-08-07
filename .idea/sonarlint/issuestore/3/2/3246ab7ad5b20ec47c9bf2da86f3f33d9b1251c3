@@ -1,10 +1,5 @@
 
 ]
-java:S1220""Move this file to a named package.8¯ŞŒ­2J$411bff2c-e2dd-4d4d-bcf0-a53f4ac2b1cb
-r	java:S106"+Replace this use of System.out by a logger.(¿Àò„şÿÿÿÿ8¾ŞŒ­2J$c93d0135-7d2b-4bca-89cd-4e36b321e7c3
-r	java:S106
-"+Replace this use of System.out by a logger.(À­Ûÿÿÿÿÿ8ÀŞŒ­2J$7fca29d0-0501-4125-8177-c3fbb87a6812
+java:S1220""Move this file to a named package.8¯ŞŒ­2J$3b8e5d1e-71f5-4be8-8459-a634f29aacd8
 t
-java:S1481",Remove this unused "integer" local variable.(Å©Óïûÿÿÿÿ8ÅŞŒ­2J$81a329a1-2428-4f38-b782-a1a37880fe9d
-r	java:S106"+Replace this use of System.out by a logger.(ƒ¬ê€ÿÿÿÿÿ8ÆŞŒ­2J$e322fdec-5725-466a-81e4-8f4feae83b6c
-r	java:S106"+Replace this use of System.out by a logger.(ƒ¬ê€ÿÿÿÿÿ8ÇŞŒ­2J$6af2c810-1b6d-44ea-9b4e-97d4f2313525
+java:S1481",Remove this unused "integer" local variable.(Å©Óïûÿÿÿÿ8ÅŞŒ­2J$08070e47-0953-41e3-ad9b-c3e782ed27a1
