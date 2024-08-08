@@ -23,6 +23,49 @@ public class DateTimes {
         //LocaleDateTimeConversion.convertToDateTime();
         //LocaleDateTimeConversion.convertToEpochTime();
         LocalTimes.showLocalTimes();
+        System.out.println("================================");
+        Periods.showPeriods();
+    }
+}
+
+class Periods {
+    static void showPeriods() {
+        /**
+         *
+         *      "P2Y"             -- Period.ofYears(2)
+         *     "P3M"             -- Period.ofMonths(3)
+         *     "P4W"             -- Period.ofWeeks(4)
+         *     "P5D"             -- Period.ofDays(5)
+         *     "P1Y2M3D"         -- Period.of(1, 2, 3)
+         *     "P1Y2M3W4D"       -- Period.of(1, 2, 25)
+         *     "P-1Y2M"          -- Period.of(-1, 2, 0)
+         *     "-P1Y2M"          -- Period.of(-1, -2, 0)
+         *
+         */
+        Period p5Yrs1 = Period.parse("P5y");
+        Period p5Yrs2 = Period.parse("p5y");
+        Period p5Yrs3 = Period.parse("P5Y");
+        Period p5Yrs4 = Period.parse("+P5Y");
+        Period p5Yrs5 = Period.parse("P+5Y");
+        Period p5Yrs6 = Period.parse("-P5Y");
+        System.out.println(p5Yrs1 + ":" + p5Yrs2);
+        System.out.println(p5Yrs3);
+        System.out.println(p5Yrs4);
+        System.out.println(p5Yrs5);
+        System.out.println(p5Yrs6);
+
+        Period p5Yrs7 = Period.parse("P5y1m2d");
+        Period p5Yrs8 = Period.parse("p9m");
+        Period p5Yrs9 = Period.parse("P60d");
+        Period p5Yrs10 = Period.parse("-P5W");
+        System.out.println(p5Yrs7);
+        System.out.println(p5Yrs8);
+        System.out.println(p5Yrs9);
+        System.out.println(p5Yrs10);
+        LocalDate carnivalStart = LocalDate.of(2050, 12, 31);
+        LocalDate carnivalEnd = LocalDate.of(2051, 1, 2);
+        Period periodBetween = Period.between(carnivalStart, carnivalEnd);
+        System.out.println(periodBetween);
     }
 }
 
