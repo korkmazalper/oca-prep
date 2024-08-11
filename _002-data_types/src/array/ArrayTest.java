@@ -67,7 +67,7 @@ class Magazine extends Book {
         Calculations c = new Calculations() {
             @Override
             public void calculate() {
-
+                System.out.println("I am an anonymous class/implementation of an Interface- !");
             }
         };
     }
