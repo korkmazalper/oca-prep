@@ -11,6 +11,9 @@ package array;
 
 public class ArrayTest {
     public static void main(String[] args) {
+        int[] numbers = {1, 2, 3};
+        float floatNumbers[] = new float[4];
+        String[] strings = new String[5];
         Book[] books = new Book[5];
         Book book1 = new Book();
         Magazine magazine = new Magazine();
