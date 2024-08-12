@@ -13,13 +13,16 @@ import java.util.ArrayList;
 
 public class ArrayListTest {
     public static void main(String[] args) {
+    
         ArrayList<String> ejg = new ArrayList<>(); // line 4
+        System.out.println(ejg.equals(new ArrayList<>()));
+        System.out.println(ejg);
         ejg.add("One"); // line 5
         ejg.add("Two"); // line 6
         System.out.println(ejg.contains(new String("One"))); // line 7
         System.out.println(ejg.indexOf("Two")); // line 8
         ejg.clear(); // line 9
         System.out.println(ejg); // line 10
-        System.out.println(ejg.get(1));
+        //System.out.println(ejg.get(1));
     }
 }
