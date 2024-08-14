@@ -56,3 +56,7 @@ J
 -conditionals/src/ternary/TernaryOperator.java,d\7\d735d0005836280d23ec8880e2d734293f8a55fa
 [
 +conditionals/src/switchcase/SwitchTest.java,b\3\b37be01778562525b3fda0bb0c792215cfa80b20
+T
+$_004-conditonals-loops/src/Main.java,e\4\e400f008aa5ee84a7b662d3ec33e0beda43f17af
+_
+/_004-conditonals-loops/src/starter/Starter.java,a\b\abd3fac2a758d873ee3c010d1db4ebb0da9335e4

@@ -9,12 +9,26 @@
 
 package switchcase;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class SwitchTest {
     public static void main(String[] args) {
         simpleCase(20);
         simpleCase(10);
         simpleCase(30);
         simpleCase(32);
+        String printDate = LocalDate.parse("2057-08-11").format(DateTimeFormatter.ISO_DATE_TIME);
+//        final int a = 10;
+//        final int b = 20;
+//        final int c;
+//        c = 30;
+//        switch (a) {
+//            case b + c:
+//                System.out.println(b + c);
+//                break;
+//        }
+
     }
 
     static void simpleCase(int marks) {
