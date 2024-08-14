@@ -9,10 +9,47 @@
 
 package starter;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+
 public class Starter {
     public static void run(String... args) {
-        forLoopWithMultipleUpdate();
-        forLoopInfinite();
+//        forLoopWithMultipleUpdate();
+//        forLoopInfinite();
+//        nestedLoopHourMinute();
+        enhancedLoop();
+    }
+
+    private static void enhancedLoop() {
+        ArrayList<String> myList = new ArrayList<String>();
+        myList.add("Java");
+        myList.add("C++");
+        myList.add("Golang");
+        myList.add("Javascript");
+        System.out.println("========================");
+        System.out.println(myList);
+        System.out.println("========================");
+        System.out.println("-->Iterator<--");
+        for (Iterator<String> i = myList.iterator(); i.hasNext(); )
+            System.out.println(i.next());
+        System.out.println("-->enhanced Loop<--");
+        for (String val : myList)
+            System.out.println(val);
+//        System.out.println("-->HashSet <--");
+//        HashSet<String> stringHashSet = new HashSet<>();
+//        stringHashSet.addAll(myList);
+//        for (String s : stringHashSet) {
+//            System.out.println(s);
+//        }
+    }
+
+    private static void nestedLoopHourMinute() {
+        for (int hrs = 0; hrs < 2; hrs++) {
+            for (int min = 0; min <= 59; min++) {
+                System.out.println(hrs + ":" + min);
+            }
+        }
     }
 
     static void forLoopInfinite() {
