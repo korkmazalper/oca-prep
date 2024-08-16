@@ -14,14 +14,17 @@ import java.util.*;
 public class Loops {
     public static void main(String[] args) {
         useArrayList();
+
     }
+
 
     static void useArrayList() {
         Collection<String> collections = new ArrayList<>();
         collections.add("Python");
         collections.add("Java");
         System.out.println(collections.size());
-        Collection<String> set = new HashSet<String>();
+        Collection<String> set = new HashSet<>();
+        set.add("One");
         System.out.println(set.size());
         Map<String, String> landsCapitals = new HashMap<>();
         landsCapitals.put("Berlin", "Germany");
@@ -33,3 +36,28 @@ public class Loops {
 
     }
 }
+
+//class Employee {
+//    void Employee() {
+//        System.out.println("Constructor");
+//    }
+//}
+//
+//class Office {
+//    public static void main(String args[]) {
+//        Employee emp = new Employee();
+//    }
+//}
+//class Employee {
+//    void Employee() {
+//        System.out.println("not a Constructor now");
+//    }
+//}
+//
+//class Office {
+//    public static void main(String args[]) {
+//        Employee emp = new Employee();
+//        emp.Employee();
+//        System.out.println(emp.toString());
+//    }
+//}
