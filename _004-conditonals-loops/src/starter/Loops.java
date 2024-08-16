@@ -21,7 +21,8 @@ public class Loops {
         collections.add("Python");
         collections.add("Java");
         System.out.println(collections.size());
-        Collection<String> set = new HashSet<String>();
+        Collection<String> set = new HashSet<>();
+        set.add("One");
         System.out.println(set.size());
         Map<String, String> landsCapitals = new HashMap<>();
         landsCapitals.put("Berlin", "Germany");
